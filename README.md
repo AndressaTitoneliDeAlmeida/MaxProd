@@ -83,3 +83,14 @@ sonar-scanner \
 
 ---
 Arquivo de configurações de análise: `Directory.Build.props` e `sonar-project.properties`.
+
+# Estrutura da pirâmide de testes:
+
+## Unit:
+Testam regras de negócio isoladamente (Services)
+
+## Integration:
+Testam endpoints reais via controllers
+
+## E2E:
+Testam fluxos do usuário via interface React com Playwright
